@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
 }
 a{
     text-decoration: none;
@@ -12,7 +13,6 @@ ul {
 img{
     max-width: 100%;
 }
-
 .container{
     width: 100%;
     height: 100vh;
@@ -31,7 +31,10 @@ img{
     background-size: contain;
     background-color: #f9f9fa;
     background-repeat: no-repeat;
+    text-align: center;
+
 }
+
 .birthday__profile{
     display: flex;
     align-items: center;
@@ -43,9 +46,11 @@ img{
     background-color: #fff;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
 .birthday__profile img{
     width:20%
 }
+
 .btn__clear{
     padding: 10px;
     margin: 0 15px;
@@ -54,7 +59,9 @@ img{
     background-color:  #148e92;
     color: #fff;
 }
-
+#P__age {
+text-align: left;
+}
 
 
 
